@@ -26,5 +26,6 @@ namespace :db do
   
   desc ''
   task :seed 
+    
   end
 end
