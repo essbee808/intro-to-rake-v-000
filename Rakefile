@@ -13,3 +13,5 @@ end
 task :console do
   puts "hello"
 end
+
+namespace :db
