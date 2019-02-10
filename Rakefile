@@ -15,3 +15,5 @@ task :console do
 end
 
 namespace :db do
+  
+end
