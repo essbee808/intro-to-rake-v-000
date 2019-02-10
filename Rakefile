@@ -15,5 +15,5 @@ task :console do
 end
 
 namespace :db do
-  
+  desc 'migrate changes to your database'
 end
