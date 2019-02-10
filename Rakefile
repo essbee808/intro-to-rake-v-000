@@ -14,4 +14,4 @@ task :console do
   puts "hello"
 end
 
-namespace :db
+namespace :db do
