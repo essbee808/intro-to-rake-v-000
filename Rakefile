@@ -9,3 +9,7 @@ desc 'outputs hola to the terminal'
     puts "hola de Rake!"
   end
 end
+
+task :console do
+  puts "hello"
+end
