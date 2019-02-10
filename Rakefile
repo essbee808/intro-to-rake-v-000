@@ -10,8 +10,8 @@ desc 'outputs hola to the terminal'
   end
 end
 
-task :console do
-  puts "hello"
+task :console => :environment do
+  Pry.start
 end
 
 task :environment do
